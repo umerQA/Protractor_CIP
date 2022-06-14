@@ -16,7 +16,7 @@ const CalculatorPage = function() {
      this.verifyResult = function(result){
       let output =  element(by.cssContainingText('.ng-binding', result));
       expect(output.getText()).toEqual(result);
-      
+       
   }
 };
 module.exports = new CalculatorPage;
