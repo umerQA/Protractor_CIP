@@ -105,8 +105,8 @@ npm\node_modules\protractor\example
 Now create the configuration file. Copy the following into `conf.js`:
 
     `exports.config = {
-    seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['todo-spec.js']
+    specs: ['../tests/calculator.js'],
+    baseUrl: 'http://juliemr.github.io/protractor-demo/',
     };`
 
 This configuration tells Protractor where your test files (`specs`) are, and where to talk to your Selenium Server (`seleniumAddress`). It will use the defaults for all other configuration. Chrome is the default browser.
