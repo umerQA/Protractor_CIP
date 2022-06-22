@@ -56,9 +56,12 @@ Installation:
 
 - **Step 1** : Download and install node.js
          https://nodejs.org/en/download/
-
+    To get this version, you can use the apt package manager. Refresh your local package index first by typing:
+        `sudo apt update`
+    Then install Node.js:
+        `sudo apt install nodejs`
+    Check that the install was successful by querying node for its version number:
         `node -v`
-
         `npm -v`
  
 - **Step 2** : Install Protractor
