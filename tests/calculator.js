@@ -21,6 +21,5 @@ describe('calculator tests', function () {
         CalculatorPage.enterSecondNumber('3');
         CalculatorPage.buttonGo();
         CalculatorPage.verifyResult('5');
-
     }); 
 });
