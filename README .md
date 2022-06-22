@@ -116,7 +116,7 @@ Run the test:
 
 Now run the test with:
 
-    `protractor conf.js`
+    `protractor conf/conf.js`
 
 You should see a Chrome browser window open up and navigate to the todo list in the AngularJS page, then close itself (this should be very fast!). The test output should be `1 test, 3 assertions, 0 failures`. Congratulations, you've run your first Protractor test!
 
